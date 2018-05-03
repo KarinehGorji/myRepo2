@@ -17,7 +17,11 @@ public class Hungry {
             System.out.println("eat something");
             System.out.println("eat pizza");
         }
-        else
-            System.out.println("thats great");
+        else {
+            System.out.println("are you thirsty?");
+            String thirsty = in.next();
+             if(thirsty.equals("yes"))
+                 System.out.println("drink water");
+        }
     }
 }
