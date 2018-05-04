@@ -13,7 +13,7 @@ public class Hungry {
 
         String input = in.next();
 
-        if(input.equals("yes")) {
+        if(input.equals("no")) {
             System.out.println("eat something");
             System.out.println("eat pizza");
             System.out.println("eat sushi");
