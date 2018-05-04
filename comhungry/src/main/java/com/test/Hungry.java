@@ -14,7 +14,6 @@ public class Hungry {
         String input = in.next();
 
         if(input.equals("yes") && input.equals("of course")) {
-            System.out.println("eat something");
             System.out.println("eat pizza");
         }
         else {
