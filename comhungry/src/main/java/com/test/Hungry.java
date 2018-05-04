@@ -16,6 +16,7 @@ public class Hungry {
         if(input.equals("yes")) {
             System.out.println("eat something");
             System.out.println("eat pizza");
+            System.out.println("eat sushi");
         }
         else {
             System.out.println("are you thirsty?");
