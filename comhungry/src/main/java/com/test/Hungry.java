@@ -20,8 +20,10 @@ public class Hungry {
         else {
             System.out.println("are you thirsty?");
             String thirsty = in.next();
-             if(thirsty.equals("yes"))
+             if(thirsty.equals("yes")) {
                  System.out.println("drink water");
+                 System.out.println("drink tan");
+             }
         }
     }
 }
